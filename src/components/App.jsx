@@ -93,7 +93,7 @@ class App extends Component {
         return <div>
             <Navbar />
             <Header />
-            <Route exact path='/' component={Homepage} />                        
+            <Route path='/' component={Homepage} />                        
             <Switch>
             <Route exact path='/BMI'>
                 <div>
@@ -113,7 +113,7 @@ class App extends Component {
                   
                 </div>
             </Route>
-            
+
             <Route exact path='/Macro'>
                 <div>
             <div className='row'>
