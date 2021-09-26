@@ -4,7 +4,7 @@ import Header from './Header';
 import Homepage from './Homepage';
 import Macro from './Macro';
 import BMI from './BMI';
-import {Route, Link} from 'react-router-dom';
+import {Switch, Route, Link} from 'react-router-dom';
 import Button from './Button';
 import Button2 from './Button2';
 class App extends Component {
@@ -94,7 +94,7 @@ class App extends Component {
             <Navbar />
             <Header />
             <Route exact path='/' component={Homepage} />                        
-            
+            <Switch>
             <Route exact path='/BMI'>
                 <div>
                <div className='row'>
@@ -113,7 +113,7 @@ class App extends Component {
                   
                 </div>
             </Route>
-
+            
             <Route exact path='/Macro'>
                 <div>
             <div className='row'>
@@ -133,7 +133,8 @@ class App extends Component {
                        <h3 className='row'>Calories = {this.state.calories}</h3>
                     </div>
                     </div>
-            </Route>            
+            </Route>
+            </Switch>            
 
         </div>;
     }
