@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ungureanustefan/Dedalus/static/css/main.f890284d.chunk.css",
+    "main.js": "/ungureanustefan/Dedalus/static/js/main.ab6ba85e.chunk.js",
+    "main.js.map": "/ungureanustefan/Dedalus/static/js/main.ab6ba85e.chunk.js.map",
+    "runtime-main.js": "/ungureanustefan/Dedalus/static/js/runtime-main.c24debf1.js",
+    "runtime-main.js.map": "/ungureanustefan/Dedalus/static/js/runtime-main.c24debf1.js.map",
+    "static/js/2.57e152b6.chunk.js": "/ungureanustefan/Dedalus/static/js/2.57e152b6.chunk.js",
+    "static/js/2.57e152b6.chunk.js.map": "/ungureanustefan/Dedalus/static/js/2.57e152b6.chunk.js.map",
+    "index.html": "/ungureanustefan/Dedalus/index.html",
+    "static/css/main.f890284d.chunk.css.map": "/ungureanustefan/Dedalus/static/css/main.f890284d.chunk.css.map",
+    "static/js/2.57e152b6.chunk.js.LICENSE.txt": "/ungureanustefan/Dedalus/static/js/2.57e152b6.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/ungureanustefan/Dedalus/static/media/nutrition.2e909308.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c24debf1.js",
+    "static/js/2.57e152b6.chunk.js",
+    "static/css/main.f890284d.chunk.css",
+    "static/js/main.ab6ba85e.chunk.js"
+  ]
+}
