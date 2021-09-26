@@ -4,7 +4,8 @@ import Header from './Header';
 import Homepage from './Homepage';
 import Macro from './Macro';
 import BMI from './BMI';
-import { HashRouter, Route, Link} from 'react-router-dom';
+import {HashRouter as Route}from 'react-router-dom';
+import Link from 'react-router-dom';
 import Button from './Button';
 import Button2 from './Button2';
 class App extends Component {
@@ -93,9 +94,9 @@ class App extends Component {
         return <div>
             <Navbar />
             <Header />
-            <HashRouter exact path='/' component={Homepage} />                        
+            <Route exact path='/' component={Homepage} />                        
             
-            <HashRouter exact path='/BMI'>
+            <Route exact path='/BMI'>
                 <div>
                <div className='row'>
                <h3 className='row'>Height</h3>
@@ -112,9 +113,9 @@ class App extends Component {
                     </div>
                   
                 </div>
-            </HashRouter>
+            </Route>
 
-            <HashRouter exact path='/Macro'>
+            <Route exact path='/Macro'>
                 <div>
             <div className='row'>
                        <h3 className='row'>Proteins</h3>
@@ -133,7 +134,7 @@ class App extends Component {
                        <h3 className='row'>Calories = {this.state.calories}</h3>
                     </div>
                     </div>
-            </HashRouter>            
+            </Route>            
 
         </div>;
     }
