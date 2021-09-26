@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/Dedalus/static/css/main.8e3519dd.chunk.css",
-    "main.js": "/Dedalus/static/js/main.ab6ba85e.chunk.js",
-    "main.js.map": "/Dedalus/static/js/main.ab6ba85e.chunk.js.map",
+    "main.js": "/Dedalus/static/js/main.495ec3f2.chunk.js",
+    "main.js.map": "/Dedalus/static/js/main.495ec3f2.chunk.js.map",
     "runtime-main.js": "/Dedalus/static/js/runtime-main.47e5b1f4.js",
     "runtime-main.js.map": "/Dedalus/static/js/runtime-main.47e5b1f4.js.map",
-    "static/js/2.57e152b6.chunk.js": "/Dedalus/static/js/2.57e152b6.chunk.js",
-    "static/js/2.57e152b6.chunk.js.map": "/Dedalus/static/js/2.57e152b6.chunk.js.map",
+    "static/js/2.040f12f6.chunk.js": "/Dedalus/static/js/2.040f12f6.chunk.js",
+    "static/js/2.040f12f6.chunk.js.map": "/Dedalus/static/js/2.040f12f6.chunk.js.map",
     "index.html": "/Dedalus/index.html",
     "static/css/main.8e3519dd.chunk.css.map": "/Dedalus/static/css/main.8e3519dd.chunk.css.map",
-    "static/js/2.57e152b6.chunk.js.LICENSE.txt": "/Dedalus/static/js/2.57e152b6.chunk.js.LICENSE.txt",
+    "static/js/2.040f12f6.chunk.js.LICENSE.txt": "/Dedalus/static/js/2.040f12f6.chunk.js.LICENSE.txt",
     "static/media/index.css": "/Dedalus/static/media/nutrition.2e909308.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.47e5b1f4.js",
-    "static/js/2.57e152b6.chunk.js",
+    "static/js/2.040f12f6.chunk.js",
     "static/css/main.8e3519dd.chunk.css",
-    "static/js/main.ab6ba85e.chunk.js"
+    "static/js/main.495ec3f2.chunk.js"
   ]
 }
