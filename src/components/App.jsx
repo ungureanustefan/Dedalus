@@ -4,8 +4,7 @@ import Header from './Header';
 import Homepage from './Homepage';
 import Macro from './Macro';
 import BMI from './BMI';
-import {HashRouter as Route}from 'react-router-dom';
-import Link from 'react-router-dom';
+import {Route, Link} from 'react-router-dom';
 import Button from './Button';
 import Button2 from './Button2';
 class App extends Component {
