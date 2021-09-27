@@ -98,7 +98,13 @@ class App extends Component {
         let caloriesResult = (this.state.proteins * 4) + (this.state.carbs * 4) + (this.state.fats * 9);
 
         //Setting calories state 
+
+        if(isNaN(caloriesResult)) {
+            this.setState({calories: 'Not a number'})
+        }
+        else {
         this.setState({calories: caloriesResult})
+        }
     }
 
 
