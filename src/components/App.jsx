@@ -4,7 +4,7 @@ import Header from './Header';
 import Homepage from './Homepage';
 import Macro from './Macro';
 import BMI from './BMI';
-import {Switch, Route} from 'react-router-dom';
+import {Switch, Route, Link} from 'react-router-dom';
 import Button from './Button';
 import Goal from './Goal';
 
@@ -57,10 +57,15 @@ class App extends Component {
         if (this.state.weight === '' || this.state.height === '') {
             alert('Not a number')
         }
+        else if (isNaN(bmiValue) || this.state.height == 0) {
+            this.setState({bmi: 'Not a number'})
+        }
+        
         else {
 
         this.setState({ bmi : bmiValue });
         }
+
 
         //assigning the correct class to the correct weight category
         let bmiClass = this.getBmi(bmiValue);
@@ -129,6 +134,8 @@ class App extends Component {
                     <div className='row'>
                        <h3 className='row'>BMI = {this.state.bmi}</h3>
                        <h3 className='row'>{this.state.bmiClass}</h3>
+                       <h4 style={{fontSize: '20px'}}>As soon as you find out where your weight stands, jump to the <Link to='/Goal' className='linkText'>Fitness Goal</Link> page to see how to be in the shape of your life.</h4>
+                       
                     </div>
                   
                 </div>
@@ -159,7 +166,7 @@ class App extends Component {
                     </div>
                     </div>
             </Route>
-            </Switch>            
+            </Switch>
 
         </div>;
     }

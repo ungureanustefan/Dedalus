@@ -35,8 +35,7 @@ class Macro extends Component {
            <label>{this.props.label}</label>
 		            <input  type='text' placeholder={this.props.placeholder} value={this.state.value} onChange={this.handleChange} />
                     <input type='reset' value='Reset' onClick={this.resetButton} />
-			</form>
-	        
+			</form>	        
          </div>
     
     }

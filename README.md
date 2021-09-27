@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# Fitness Calculators - Single Page Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Purpose of project
+### These fitness calculators are design with the purpose of giving extra help to people who want to achieve certain fitness goal, such as losing weight, maintaining it or building muscle.
 
-## Available Scripts
+## Instructions
 
-In the project directory, you can run:
+### BMI Calculator - type in your current height and weight in the corresponding text box and press "Click Here!" to see what weight class applies to you.
 
-### `npm start`
+### Fitness Goal Page - this page is meant to give you an insight of what you would have to look into based on what you want to achieve.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Macros - after you decide what you want to achieve, you'll know that there are certain amounts of macronutrients that you have to fuel your body with daily in order to achieve that goal.
+### Jump to the Macro calculator and type in the proteins, carbs and fats that you have consumed today and see how many calories you've consumed so far.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Project Set Up
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### In order to install the project on your device do the following:
+- Open your code editor.
+- Open the terminal.
+- Type in " git clone https://github.com/ungureanustefan/Dedalus.git ".
+- In terminal, type " npm i " or " npm install " to retrieve the client-side dependencies.
+- In terminal, type " npm start " in order to run the project.
