@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-
-import BMICard from './BMICard';
-import MacroCard from './MacroCard';
 class Header extends Component {
     render() { 
         return <div className='header'>

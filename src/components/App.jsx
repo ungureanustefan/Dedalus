@@ -4,9 +4,10 @@ import Header from './Header';
 import Homepage from './Homepage';
 import Macro from './Macro';
 import BMI from './BMI';
-import {Switch, Route, Link} from 'react-router-dom';
+import {Switch, Route} from 'react-router-dom';
 import Button from './Button';
-import Button2 from './Button2';
+import Goal from './Goal';
+
 class App extends Component {
     constructor(props) {
         super(props);
@@ -52,7 +53,16 @@ class App extends Component {
         let bmiValue = ( this.state.weight / this.state.height / this.state.height) * 10000;
 
         //setting the bmi state
+
+        if (this.state.weight === '' || this.state.height === '') {
+            alert('Not a number')
+        }
+        else {
+
         this.setState({ bmi : bmiValue });
+        }
+
+        //assigning the correct class to the correct weight category
         let bmiClass = this.getBmi(bmiValue);
         
         //setting the bmi class state
@@ -92,9 +102,19 @@ class App extends Component {
 
         return <div>
             <Navbar />
-            <Header />
-            <Route path='/' component={Homepage} />                        
             <Switch>
+            <Route exact path='/'>
+                <Header />
+                <Homepage />
+            </Route>
+
+
+            <Route exact path='/Dedalus'>
+                <Header />
+                <Homepage />
+            </Route>
+
+
             <Route exact path='/BMI'>
                 <div>
                <div className='row'>
@@ -114,6 +134,11 @@ class App extends Component {
                 </div>
             </Route>
 
+            <Route exact path='/Goal'>
+                <Goal />
+            </Route>
+
+
             <Route exact path='/Macro'>
                 <div>
             <div className='row'>
@@ -128,7 +153,7 @@ class App extends Component {
                        <h3 className='row'>Fats</h3>
                 <Macro  placeholder='Enter number of fats' onChange={this.fatsChanged} onClick={this.calculateMacros}  />
             </div >
-                <Button2 label='SUBMIT' onClick={this.calculateMacros} />
+                <Button label='SUBMIT' onClick={this.calculateMacros} />
                 <div className='row'>
                        <h3 className='row'>Calories = {this.state.calories}</h3>
                     </div>
