@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Dedalus/static/css/main.272f919e.chunk.css",
-    "main.js": "/Dedalus/static/js/main.ef1be51f.chunk.js",
-    "main.js.map": "/Dedalus/static/js/main.ef1be51f.chunk.js.map",
+    "main.js": "/Dedalus/static/js/main.c3a5689d.chunk.js",
+    "main.js.map": "/Dedalus/static/js/main.c3a5689d.chunk.js.map",
     "runtime-main.js": "/Dedalus/static/js/runtime-main.47e5b1f4.js",
     "runtime-main.js.map": "/Dedalus/static/js/runtime-main.47e5b1f4.js.map",
     "static/js/2.21acad8a.chunk.js": "/Dedalus/static/js/2.21acad8a.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.47e5b1f4.js",
     "static/js/2.21acad8a.chunk.js",
     "static/css/main.272f919e.chunk.css",
-    "static/js/main.ef1be51f.chunk.js"
+    "static/js/main.c3a5689d.chunk.js"
   ]
 }
